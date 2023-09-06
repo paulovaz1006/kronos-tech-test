@@ -25,3 +25,9 @@
 - Utilizaremos o JavaScript para converter esses campos em objetos do tipo `Date`, permitindo manipulações e formatações mais adequadas.
 
 Certifique-se de testar cada etapa do processo para garantir que os dados sejam manipulados, convertidos e validados corretamente de acordo com os cenários especificados.
+
+
+## Run command
+- npm install
+- node main.js
+- npm test
