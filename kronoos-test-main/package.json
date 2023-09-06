@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "jest": "^29.6.4"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watchAll"
+  },
+  "type": "module",
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.15"
+  }
+}
