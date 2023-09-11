@@ -1,7 +1,7 @@
 import csv from 'csv-parser';
 import * as fs from 'fs';
 import { formatCurrencyToBrazilianReal, convertDateFormatToDate } from './utils/formatInfos.js';
-import { validateIdentifierFormat, validateIdentifierFormat } from './utils/validInfos.js';
+import { validateIdentifierFormat } from './utils/validInfos.js';
 
 const results = [];
 
